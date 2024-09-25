@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+}
+
+header nav {
+    background-color: blue;
+    color: white;
+    padding: 1em;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

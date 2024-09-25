@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Exemple</title>
+</head>
+
+<body>
+
+    <!-- En-tête principale avec CTA -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Bienvenue sur Notre Landing Page</h1>
+            <p>Découvrez nos services uniques et notre engagement envers la qualité.</p>
+            <p><strong>Transformez vos idées en réalité avec nous dès aujourd'hui !</strong></p>
+            <a href="#contact"><button>Contactez-nous maintenant</button></a>
+        </section>
+        <!-- Section "À propos" -->
+        <section id="about">
+            <h2>À propos de nous</h2>
+            <p>Nous sommes une entreprise dédiée à offrir des solutions innovantes à nos clients. Notre équipe est
+                composée de professionnels expérimentés qui partagent une passion pour l'excellence.</p>
+            <a href="#services"><button>Découvrez nos services</button></a>
+            <!-- CTA pour rediriger vers les services -->
+        </section>
+
+        <!-- Section des services avec CTA -->
+        <section id="services">
+            <h2>Nos Services</h2>
+            <article>
+                <h3>Service 1: Conseil</h3>
+                <p>Nous vous aidons à optimiser votre stratégie pour atteindre vos objectifs.</p>
+                <a href="#contact"><button>Demandez un devis</button></a> <!-- CTA après chaque service -->
+            </article>
+            <article>
+                <h3>Service 2: Développement</h3>
+                <p>Nous créons des solutions numériques sur mesure pour vos besoins spécifiques.</p>
+                <a href="#contact"><button>Commencez un projet</button></a>
+                <!-- CTA spécifique pour le développement -->
+            </article>
+            <article>
+                <h3>Service 3: Support</h3>
+                <p>Un service client réactif et attentif à vos besoins pour vous accompagner dans vos projets.</p>
+                <a href="#contact"><button>Obtenez de l'aide</button></a> <!-- CTA pour obtenir du support -->
+            </article>
+        </section>
+
+        <!-- Témoignages -->
+        <section>
+            <h2>Témoignages</h2>
+            <blockquote>
+                <p>"Une équipe fantastique qui a su répondre à nos attentes et même les dépasser !"</p>
+                <footer>- Client Satisfait</footer>
+            </blockquote>
+            <blockquote>
+                <p>"Des services de qualité et une attention aux détails impressionnante."</p>
+                <footer>- Client Heureux</footer>
+            </blockquote>
+            <a href="#contact"><button>Rejoignez nos clients satisfaits</button></a>
+            <!-- CTA pour attirer après les témoignages -->
+        </section>
+
+        <!-- Formulaire de contact avec CTA -->
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <p>Prêt à démarrer votre projet ? Remplissez le formulaire ci-dessous et nous vous répondrons rapidement.
+            </p>
+            <form action="/submit" method="POST">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Votre Entreprise - Tous droits réservés</p>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

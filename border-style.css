@@ -1,0 +1,55 @@
+/* Header */
+header {
+    border-style: solid;
+    display: flex;
+}
+
+header > * {
+    border-style: double;
+    border-color: red;
+}
+
+header > * > * {
+    border-style: double;
+    border-color: green;
+}
+
+header > * > * > * {
+    border-style: double;
+    border-color: blue;
+}
+
+/* Main */
+main {
+    border-style: solid;
+}
+
+main > * {
+    border-style: double;
+    border-color: red;
+}
+
+main > * > * {
+    border-style: double;
+    border-color: green;
+}
+
+main > * > * > * {
+    border-style: double;
+    border-color: blue;
+}
+
+/* Footer */
+footer {
+    border-style: solid;
+}
+
+footer > * {
+    border-style: double;
+    border-color: red;
+}
+
+footer > * > * {
+    border-style: double;
+    border-color: green;
+}
